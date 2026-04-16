@@ -1,0 +1,594 @@
+﻿{
+    "documentation":  {
+                          "overview":  "Directory: C:\\Users\\aayus\\AppData\\Local\\Temp\\architectx-ztylita2\\repo\nFiles analyzed: 46\n\nEstimated tokens: 65.7k",
+                          "tech_stack":  [
+                                             "Django",
+                                             "FastAPI",
+                                             "Flask",
+                                             "JavaScript",
+                                             "Python",
+                                             "React"
+                                         ],
+                          "architecture":  "Top-level modules: architext, backend Repository structure was extracted using gitingest. Architecture summary combines folder boundaries, entry files, and import relationships.",
+                          "components":  [
+                                             {
+                                                 "name":  "architext",
+                                                 "description":  "Directory \u0027architext\u0027 containing ~70 items."
+                                             },
+                                             {
+                                                 "name":  "backend",
+                                                 "description":  "Directory \u0027backend\u0027 containing ~3 items."
+                                             }
+                                         ],
+                          "improvements":  [
+                                               "Set up CI pipelines for linting, testing, and build validation.",
+                                               "Create a comprehensive README with setup and architecture details.",
+                                               "Add a license file to clarify usage rights."
+                                           ]
+                      },
+    "hot_files":  [
+                      {
+                          "file":  "architext/.gitignore",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/NUCLEAR_RESET_COMPLETE.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/QUICK_START.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/README.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/REAL_WORKING_SETUP.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/SYSTEM_READY.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/SYSTEM_STATUS.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/SYSTEM_VERIFICATION_COMPLETE.md",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/__init__.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/dependency_parser.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/main.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/__init__.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/analysis_pipeline.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/analytics_engine.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/cloner.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/cnn_classifier.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/commit_analyzer.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/dependency_graph_generator.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/extractor.py",
+                          "changes":  1
+                      },
+                      {
+                          "file":  "architext/backend/pipeline/file_access_tracker.py",
+                          "changes":  1
+                      }
+                  ],
+    "file_tree":  {
+                      "name":  "repo",
+                      "type":  "directory",
+                      "children":  [
+                                       {
+                                           "name":  "architext",
+                                           "type":  "directory",
+                                           "children":  [
+                                                            {
+                                                                "name":  "backend",
+                                                                "type":  "directory",
+                                                                "children":  [
+                                                                                 {
+                                                                                     "name":  "pipeline",
+                                                                                     "type":  "directory",
+                                                                                     "children":  [
+                                                                                                      {
+                                                                                                          "name":  "__init__.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "analysis_pipeline.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "analytics_engine.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "cloner.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "cnn_classifier.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "commit_analyzer.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "dependency_graph_generator.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "extractor.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "file_access_tracker.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "file_statistics.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "gemini_documenter.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "gnn_analyzer.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "graph_parser.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "llm_documenter.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "query_system.py",
+                                                                                                          "type":  "file"
+                                                                                                      }
+                                                                                                  ]
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "utils",
+                                                                                     "type":  "directory",
+                                                                                     "children":  [
+                                                                                                      {
+                                                                                                          "name":  "__init__.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "file_utils.py",
+                                                                                                          "type":  "file"
+                                                                                                      },
+                                                                                                      {
+                                                                                                          "name":  "graph_utils.py",
+                                                                                                          "type":  "file"
+                                                                                                      }
+                                                                                                  ]
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "__init__.py",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "dependency_parser.py",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "main.py",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "requirements.txt",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "utils.py",
+                                                                                     "type":  "file"
+                                                                                 }
+                                                                             ]
+                                                            },
+                                                            {
+                                                                "name":  "frontend",
+                                                                "type":  "directory",
+                                                                "children":  [
+                                                                                 {
+                                                                                     "name":  "app.js",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "config.js",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "index.html",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "package.json",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "postinstall.js",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "style.css",
+                                                                                     "type":  "file"
+                                                                                 }
+                                                                             ]
+                                                            },
+                                                            {
+                                                                "name":  ".gitignore",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "debug_import.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "import_progress.txt",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "NUCLEAR_RESET_COMPLETE.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "QUICK_START.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "README.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "REAL_WORKING_SETUP.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "run_with_timeout.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "SYSTEM_READY.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "SYSTEM_STATUS.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "SYSTEM_VERIFICATION_COMPLETE.md",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "test_api_real.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "test_imports.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "test_real_analysis.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "test_status.py",
+                                                                "type":  "file"
+                                                            },
+                                                            {
+                                                                "name":  "verify_system.py",
+                                                                "type":  "file"
+                                                            }
+                                                        ]
+                                       },
+                                       {
+                                           "name":  "backend",
+                                           "type":  "directory",
+                                           "children":  [
+                                                            {
+                                                                "name":  "models",
+                                                                "type":  "directory",
+                                                                "children":  [
+                                                                                 {
+                                                                                     "name":  "cnn_model_final.pt",
+                                                                                     "type":  "file"
+                                                                                 },
+                                                                                 {
+                                                                                     "name":  "gnn_model.pt",
+                                                                                     "type":  "file"
+                                                                                 }
+                                                                             ]
+                                                            }
+                                                        ]
+                                       },
+                                       {
+                                           "name":  "package-lock.json",
+                                           "type":  "file"
+                                       }
+                                   ]
+                  },
+    "dependency_graph":  {
+                             "nodes":  [
+                                           {
+                                               "id":  "architext\\debug_import.py",
+                                               "label":  "debug_import.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\run_with_timeout.py",
+                                               "label":  "run_with_timeout.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\SYSTEM_READY.py",
+                                               "label":  "SYSTEM_READY.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\test_api_real.py",
+                                               "label":  "test_api_real.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\test_imports.py",
+                                               "label":  "test_imports.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\test_real_analysis.py",
+                                               "label":  "test_real_analysis.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\test_status.py",
+                                               "label":  "test_status.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\verify_system.py",
+                                               "label":  "verify_system.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\dependency_parser.py",
+                                               "label":  "dependency_parser.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\main.py",
+                                               "label":  "main.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\utils.py",
+                                               "label":  "utils.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\__init__.py",
+                                               "label":  "__init__.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\analysis_pipeline.py",
+                                               "label":  "analysis_pipeline.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\analytics_engine.py",
+                                               "label":  "analytics_engine.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\cloner.py",
+                                               "label":  "cloner.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\cnn_classifier.py",
+                                               "label":  "cnn_classifier.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\commit_analyzer.py",
+                                               "label":  "commit_analyzer.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\dependency_graph_generator.py",
+                                               "label":  "dependency_graph_generator.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\extractor.py",
+                                               "label":  "extractor.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\file_access_tracker.py",
+                                               "label":  "file_access_tracker.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\file_statistics.py",
+                                               "label":  "file_statistics.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\gemini_documenter.py",
+                                               "label":  "gemini_documenter.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\gnn_analyzer.py",
+                                               "label":  "gnn_analyzer.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\graph_parser.py",
+                                               "label":  "graph_parser.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\llm_documenter.py",
+                                               "label":  "llm_documenter.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\query_system.py",
+                                               "label":  "query_system.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\pipeline\\__init__.py",
+                                               "label":  "__init__.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\utils\\file_utils.py",
+                                               "label":  "file_utils.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\utils\\graph_utils.py",
+                                               "label":  "graph_utils.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\backend\\utils\\__init__.py",
+                                               "label":  "__init__.py",
+                                               "group":  "py",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\frontend\\app.js",
+                                               "label":  "app.js",
+                                               "group":  "js",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\frontend\\config.js",
+                                               "label":  "config.js",
+                                               "group":  "js",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           },
+                                           {
+                                               "id":  "architext\\frontend\\postinstall.js",
+                                               "label":  "postinstall.js",
+                                               "group":  "js",
+                                               "in_degree":  0,
+                                               "out_degree":  0
+                                           }
+                                       ],
+                             "edges":  [
+
+                                       ],
+                             "stats":  {
+                                           "node_count":  33,
+                                           "edge_count":  0,
+                                           "density":  0
+                                       }
+                         }
+}
